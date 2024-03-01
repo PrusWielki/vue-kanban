@@ -9,5 +9,9 @@ html {
   --padding-md: 16px;
   --padding-lg: 24px;
 
+  --font-sm: 8px;
+  --font-md: 16px;
+  --font-lg: 24px;
+
   --small-desktop: 1024px;
 }

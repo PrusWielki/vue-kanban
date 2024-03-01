@@ -1,10 +1,15 @@
+<script setup lang="ts">
+import BoardElement from '@/components/BoardElement.vue'
+import CardElement from '@/components/CardElement.vue'
+</script>
+
 <template>
   <div class="wrapper">
     <div class="container">
       <div class="board-grid">
-        <div class="table">Hello</div>
-        <div class="table">Hello</div>
-        <div class="table">Hello</div>
+        <BoardElement title="TODO"><CardElement title="Task1" /></BoardElement>
+        <BoardElement title="Doing" />
+        <BoardElement title="Done" />
       </div>
     </div>
   </div>
