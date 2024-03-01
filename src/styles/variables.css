@@ -1,0 +1,13 @@
+html {
+  --main-background: ;
+
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+
+  --padding-sm: 8px;
+  --padding-md: 16px;
+  --padding-lg: 24px;
+
+  --small-desktop: 1024px;
+}
