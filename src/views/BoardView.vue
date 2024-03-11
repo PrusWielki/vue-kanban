@@ -7,7 +7,7 @@ import CardElement from '@/components/CardElement.vue'
   <div class="wrapper">
     <div class="container">
       <div class="board-grid">
-        <BoardElement title="TODO"><CardElement title="Task1" /></BoardElement>
+        <BoardElement title="TODO"><CardElement title="Task1" /><CardElement title="Task2" /></BoardElement>
         <BoardElement title="Doing" />
         <BoardElement title="Done" />
       </div>
